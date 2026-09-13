@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SimplePlayer</string>
+    <string name="video_library_title">مكتبة الفيديوهات</string>
+    <string name="sample_videos_title">فيديوهات تجريبية للاختبار</string>
+    <string name="sample_videos_subtitle">اضغط لتشغيل واختبار مشغل الفيديو Media3 ExoPlayer</string>
+    <string name="play_sample_button">تشغيل فيديو تجريبي</string>
+    <string name="big_buck_bunny_title">Big Buck Bunny</string>
+    <string name="for_bigger_blazes_title">For Bigger Blazes</string>
+    <string name="stream_sample_label">بث تجريبي مباشر عبر الإنترنت</string>
+    <string name="search_videos_placeholder">بحث في الفيديوهات…</string>
+    <string name="clear_search">مسح البحث</string>
+    <string name="sort_by">ترتيب حسب</string>
+    <string name="sort_date_desc">الأحدث أولاً</string>
+    <string name="sort_name_asc">الاسم أبجديًا</string>
+    <string name="sort_size_desc">الأكبر حجمًا</string>
+    <string name="permission_required_title">صلاحية الوصول إلى الفيديوهات</string>
+    <string name="permission_required_desc">يحتاج SimplePlayer إلى إذن الوصول لتخزين الجهاز لقراءة وعرض مقاطع الفيديو المحفوظة لديك وتشغيلها بسلاسة.</string>
+    <string name="grant_permission_button">منح الصلاحية</string>
+    <string name="open_settings_button">فتح إعدادات التطبيق</string>
+    <string name="no_videos_found_title">لم يتم العثور على فيديوهات</string>
+    <string name="no_videos_found_desc">لا توجد أي مقاطع فيديو مسجلة على ذاكرة الجهاز حاليًا.</string>
+    <string name="no_search_results_title">لا توجد نتائج مطابقة</string>
+    <string name="no_search_results_desc">لم يتم العثور على أي مقطع فيديو يطابق بحثك.</string>
+    <string name="refresh_library">تحديث المكتبة</string>
+    <string name="device_videos_count">%1$d مقطع فيديو</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="playback_settings_section">إعدادات التشغيل والتحكم</string>
+    <string name="double_tap_seek_title">مدة التقديم والإرجاع (النقر المزدوج)</string>
+    <string name="double_tap_seek_desc">حدد عدد الثواني التي يتم تقديمها أو إرجاعها عند النقر المزدوج على جانبي الفيديو</string>
+    <string name="seconds_count">%1$d ثانية</string>
+    <string name="long_press_speed_title">سرعة التسريع بالضغط المطول</string>
+    <string name="long_press_speed_desc">سرعة تشغيل الفيديو الفورية طالما الإصبع مستمر بالضغط على الفيديو (على طريقة يوتيوب)</string>
+    <string name="speed_hud_text">%1$s سرعة</string>
+    <string name="reset_defaults">استعادة الإعدادات الافتراضية</string>
+</resources>

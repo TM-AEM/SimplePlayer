@@ -1,0 +1,8 @@
+{
+  "name": "SimplePlayer",
+  "description": "Clean Android video player using Media3 ExoPlayer and Jetpack Compose, featuring gesture controls, customizable seek duration, long-press speed up, and settings persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
