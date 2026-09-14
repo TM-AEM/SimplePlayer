@@ -1,3 +1,9 @@
+*.jks
+*.keystore
+*.apk
+*.aab
+upload-keystore.base64
+
 *.iml
 .gradle
 .kotlin

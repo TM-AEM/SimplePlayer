@@ -38,10 +38,25 @@ android {
   signingConfigs {
     create("release") {
       val keystorePath = System.getenv("KEYSTORE_PATH") ?: "${rootDir}/upload-keystore.jks"
+      val storePass = System.getenv("STORE_PASSWORD")
+      val keyPass = System.getenv("KEY_PASSWORD")
+      val keyAliasName = System.getenv("KEY_ALIAS") ?: "upload"
+
       storeFile = file(keystorePath)
-      storePassword = System.getenv("STORE_PASSWORD") ?: "simpleplayer123"
-      keyAlias = "upload"
-      keyPassword = System.getenv("KEY_PASSWORD") ?: "simpleplayer123"
+      keyAlias = keyAliasName
+      if (!storePass.isNullOrBlank() && !keyPass.isNullOrBlank()) {
+        storePassword = storePass
+        keyPassword = keyPass
+      } else {
+        val isReleaseRequested = gradle.startParameter.taskNames.any {
+          it.contains("Release", ignoreCase = true)
+        }
+        if (isReleaseRequested) {
+          throw GradleException(
+            "CRITICAL SECURITY ERROR: Release signing requires STORE_PASSWORD and KEY_PASSWORD environment variables. No plain-text fallback password is allowed."
+          )
+        }
+      }
     }
     create("debugConfig") {
       storeFile = file("${rootDir}/debug.keystore")

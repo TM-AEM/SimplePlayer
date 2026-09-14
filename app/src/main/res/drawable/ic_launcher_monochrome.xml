@@ -3,7 +3,6 @@
     <item
         android:width="66dp"
         android:height="66dp"
-        android:drawable="@drawable/ic_player_foreground"
+        android:drawable="@drawable/ic_player_monochrome"
         android:gravity="center" />
 </layer-list>
-
