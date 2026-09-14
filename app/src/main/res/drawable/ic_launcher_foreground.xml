@@ -3,7 +3,7 @@
     <item
         android:width="68dp"
         android:height="68dp"
-        android:drawable="@drawable/simpleplayer_icon_1789318317862"
+        android:drawable="@drawable/ic_player_foreground_1789302352290"
         android:gravity="center" />
 </layer-list>
 
